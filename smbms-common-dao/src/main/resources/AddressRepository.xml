@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.smbms.repository.AddressRepository">
+    <select id="findAllAddresses" resultType="com.smbms.pojo.Address">
+        select * from smbms_address
+    </select>
+
+    <select id="findAddressById" resultType="com.smbms.pojo.Address">
+        select * from smbms_address where id=#{id}
+    </select>
+</mapper>
