@@ -9,7 +9,7 @@ import java.util.Date;
 /**
  * @Author 北方張
  * @create 2019-08-07 16:17
- * @description TODO
+ * @description TODO 所有实体类要想远程传输 使用swagger-ui页面可以访问数据必须实现序列化接口
  * @ClassName Address.java
  */
 @Data
